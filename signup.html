@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h2 id="logo">Love Running</h2>
+        </a>
+
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="signup.html" class="active">Sign Up</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-section">
+        <form action="https://formdump.codeinstitute.net/" method="post" class="signup-form">
+            <h2>Let's Get you signed up! <i class="fas fa-heartbeat"></i></h2>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="first_name" class="text-input" required><br>
+
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="last_name" class="text-input" required><br>
+
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email_address" class="text-input" required><br>
+
+            <label for="road-running">Road</label>
+            <input type="radio" id=road-running name="running_preference" required>
+
+            <label for="trail-running">Trail</label>
+            <input type="radio" id="trail-running" name="running_preference">
+
+            <label for="both-running-types">Both</label>
+            <input type="radio" id="both-running-types" name="running_preference"><br>
+
+            <input type="submit" class="join-button" value="Let's Run!">
+        </form>
+    </section>
+
+    <footer>
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
